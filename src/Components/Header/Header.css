@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #9FE2BF;
+}
+.header p{
+    font-family: sans-serif; 
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff; 
+}
+.header p:hover{
+    color: orange;
+}
+.header img{
+    height:80px;
+    margin-left: 50px;
+}
+
+.link { 
+    margin-right: 50px;
+}
+.link a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: sans-serif; 
+    color:#fff ;
+}
+.link a:hover{
+    color: orange;
+}

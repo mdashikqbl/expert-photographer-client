@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "name": "Portrait",
+      "img": "https://i.pinimg.com/originals/39/e9/b3/39e9b39628e745a39f900dc14ee4d9a7.jpg",
+      "time":	"Shooting time 5 hours",
+      "price":"800$",
+      "descripation":"A portrait photographer is a professional photographer who specializes in taking pictures of people. They know how to use photographic equipment toproduce an optimal image and may use lights and filters to enhance the  images. Portrait photographers may work in studios or on location"
+    },
+    {
+      "id": 2,
+      "name": "Wedding",
+      "img": "https://images.pexels.com/photos/5166521/pexels-photo-5166521.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "time": "Shooting time 12 hours",
+      "price":"1000$",
+      "descripation":"Most wedding ceremonies involve an exchange of marriage vows by a couple, presentation of a gift offering, rings, symbolic item, flowers, money, dress, and a public proclamation of marriage by an authority figure or celebrant.e"
+      
+    },
+    {
+      "id": 3,
+      "name": "Short Film",
+      "img": "https://filmlifestyle.com/wp-content/uploads/2021/04/best-camera-for-making-short-films.jpg",
+      "time":	"Shooting time 12 hours",
+        "price":"1500$",
+      "descripation":"A short film is any motion picture that is short enough in running time not to be considered a feature film. The Academy of Motion Picture Arts and Sciences defines a short film as an original motion picture that has a running time of 40 minutes or less, including all credits"
+    }
+   
+  
+  ]
