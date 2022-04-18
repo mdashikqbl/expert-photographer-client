@@ -33,7 +33,7 @@
     font-size: 24px;
 }
 .form-submit{
-    width: 440px;
+    width: 445px;
     height: 55px;
     background-color: #9FE2BF;
     border: none;
@@ -41,8 +41,9 @@
     font-size: 21px;
   
 }
+
 .form-link{
-  
+    font-weight: 600;
     text-decoration: none;
     color: #9FE2BF;
 }

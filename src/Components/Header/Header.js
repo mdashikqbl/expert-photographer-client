@@ -5,9 +5,9 @@ import logo from '../../images/pro (1).png'
 
 const Header = () => {
     return (
-        <nav className='header'>
+        <nav className='header' >
 
-            <img src={logo} alt="" />
+            < img src={logo} alt="" />
             <p> EXPERT PHOTOGRAPHER</p>
             <div className='link'>
                 <Link to='/'>HOME</Link>
@@ -15,7 +15,7 @@ const Header = () => {
                 <Link to='/blog'>BLOG</Link>
                 <Link to='/login'>LOG IN</Link>
             </div>
-        </nav>
+        </nav >
     );
 };
 
