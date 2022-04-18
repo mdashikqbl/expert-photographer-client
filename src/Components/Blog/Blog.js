@@ -5,7 +5,7 @@ const Blog = () => {
     return (
         <div className='question-info'>
             <div>
-                <h3> Difference between authorization and authentication? </h3>
+                <h3>1. Difference between authorization and authentication? </h3>
                 <p><b>Authentication:</b>
                     Authentication verifies who the user is.
                     Authentication works through passwords, one-time pins, biometric information, and other information provided or entered by the user.
@@ -20,14 +20,14 @@ const Blog = () => {
                 </p>
             </div>
             <div>
-                <h3> Why are you using firebase? What other options do you have to implement authentication?</h3>
+                <h3>2. Why are you using firebase? What other options do you have to implement authentication?</h3>
                 <p><b>Firebase:</b>Owned by Google, Firebase is a complete package of products that allows to build web and mobile apps, improve the app quality and help your clients grow their business.
                     Firebase by Google can be used for the following Firebase manages all data real-time in the database. So, the exchange of data to and fro from the database is easy and quick. Hence, if you are looking to develop mobile apps such as live streaming, chat messaging, etc., you can use Firebase.</p>
                 <p><b>What other options do you have to implement authentication:</b>authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints.</p>
 
             </div>
             <div>
-                <h3> What other services does firebase provide other than authentication?</h3>
+                <h3>3. What other services does firebase provide other than authentication?</h3>
                 <p></p>
             </div>
         </div>

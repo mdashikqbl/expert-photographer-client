@@ -1,0 +1,93 @@
+.form-container{
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #9FE2BF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+.input-group label{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+.input-group input{
+    width: 440px;
+    height: 55px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.form-submit{
+    width: 440px;
+    height: 55px;
+    background-color: #9FE2BF;
+    border: none;
+    border-radius: 5px;
+    font-size: 21px;
+  
+}
+.form-link{
+  
+    text-decoration: none;
+    color: #9FE2BF;
+}
+.first{
+    border: 1px solid #9FE2BF ;
+    width: 170px;
+}
+.last{
+    border: 1px solid #9FE2BF ;
+    width: 170px;
+}
+.or{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.or-style{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+                
+.google-btn{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.google-btn img{
+    margin-right: 15px;
+}
+.google-btn h4{
+    font-size: 17px;
+}
+
+.google-btn1 button{
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #9FE2BF;
+}
