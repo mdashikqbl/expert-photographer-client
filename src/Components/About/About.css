@@ -1,0 +1,13 @@
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+width: 50%;
+}
+.text-info {
+   width: 50%;
+   margin-bottom: 200px;
+    
+}
