@@ -3,7 +3,7 @@ import React from 'react';
 const CheckOut = () => {
     return (
         <div>
-            <button>check out</button>
+            <h2>Complete your Order</h2>
         </div>
     );
 };

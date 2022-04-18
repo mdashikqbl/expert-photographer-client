@@ -1,12 +1,29 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import google from '../../google.svg'
 import auth from '../../firebase.init';
-import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 
 
 const SignUp = () => {
-    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useCreateUserWithEmailAndPassword(auth);
+    const nameRef = useRef('');
+    const emailRef = useRef('');
+    const passwordRef = useRef('');
+    const handleSignUp = event => {
+        event.preventDefault();
+        const name = nameRef.current.value;
+        const email = emailRef.current.value;
+        const password = passwordRef.current.value;
+
+        createUserWithEmailAndPassword(email, password)
+    }
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
     const navigate = useNavigate()
     let errorElement;
     if (error) {
@@ -23,14 +40,18 @@ const SignUp = () => {
         <div className='form-container'>
             <div>
                 <h1 className='form-title'>Sign Up</h1>
-                <form >
+                <form onSubmit={handleSignUp} >
+                    <div className="input-group">
+                        <label htmlFor="name">Your Name</label>
+                        <input ref={nameRef} type="input" name="name" id="" />
+                    </div>
                     <div className="input-group">
                         <label htmlFor="Email">Email</label>
-                        <input type="email" name="Email" id="" />
+                        <input ref={emailRef} type="email" name="Email" id="" required />
                     </div>
                     <div className="input-group">
                         <label htmlFor="password">password</label>
-                        <input type="password" name="password" id="" />
+                        <input ref={passwordRef} type="password" name="password" id="" required />
                     </div>
                     <input className='form-submit' type="submit" value="SignUp" />
                 </form>

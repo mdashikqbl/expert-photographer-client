@@ -1,9 +1,13 @@
 import React from 'react';
-import CheckOut from '../CheckOut/CheckOut';
+import { useNavigate } from 'react-router-dom';
 import './Service.css'
 
 const Service = (props) => {
-    const { img, name, price, time, descripation } = props.service
+    const navigate = useNavigate()
+    const navigateAddToCart = id => {
+        navigate(`/service/${id}`);
+    }
+    const { img, name, price, time, descripation, id } = props.service
     return (
         <div className='service'>
             <img src={img} alt="" />
@@ -15,7 +19,7 @@ const Service = (props) => {
 
             </div>
             <button className='btn-cart'>
-                <p>Buy Now</p>
+                <p onClick={() => navigateAddToCart(id)}>Buy Now </p>
             </button>
         </div>
     );

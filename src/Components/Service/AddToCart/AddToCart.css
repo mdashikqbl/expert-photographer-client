@@ -1,0 +1,9 @@
+.text-tocart{
+   text-align: center;
+}
+.text-tocart button{
+    font-size: 50px;
+    background-color: #9FE2BF;
+    border: none;
+    border-radius: 10px;
+}
