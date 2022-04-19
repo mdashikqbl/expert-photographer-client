@@ -15,7 +15,7 @@ const Login = () => {
     let from = location.state?.from?.pathname || "/";
     let errorElement;
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
-    const [signInWithEmailAndPassword,] = useSignInWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword, loading] = useSignInWithEmailAndPassword(auth);
     const [signInWithGoogle, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate()
 
