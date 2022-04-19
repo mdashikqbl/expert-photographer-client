@@ -34,3 +34,23 @@
 .link a:hover{
     color: orange;
 }
+@media screen and (max-width:576px) {
+    .header{
+        margin-left: 0px;
+        width: 500px;
+        
+    }
+    .header p{
+        font-size: small;
+    }
+    .header img{
+        margin-left: 0;
+    }
+    .link a{
+        display: flex;
+        flex-direction: row;
+        font-size: small;   
+    }
+   
+    
+}

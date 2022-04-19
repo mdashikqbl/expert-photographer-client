@@ -92,3 +92,10 @@
     border-radius: 5px;
     background-color: #9FE2BF;
 }
+
+.resetpass{
+    display:inline-block;
+    color: #9FE2BF;
+    cursor: pointer;
+    font-weight: 600;
+}

@@ -9,15 +9,14 @@ const SignUp = () => {
     const [
         createUserWithEmailAndPassword,
         user,
-        loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const nameRef = useRef('');
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const handleSignUp = event => {
         event.preventDefault();
-        const name = nameRef.current.value;
+        const Name = nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
 

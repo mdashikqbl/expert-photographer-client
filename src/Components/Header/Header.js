@@ -13,8 +13,7 @@ const Header = () => {
     }
     return (
         <nav className='header' >
-
-            < img src={logo} alt="" />
+            <div>< img src={logo} alt="" /></div>
             <p> EXPERT PHOTOGRAPHER</p>
             <div className='link'>
                 <Link to='/'>HOME</Link>
