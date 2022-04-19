@@ -19,4 +19,31 @@
 * Authentication email/password and Google
 * Reset password use toast and send verification in email
 
-<h2>use te</h2>
+<h2>Use Technologies</h2>
+
+<h3>Browser</h3>
+
+* Google Chrome
+
+<h3>CSS</h3>
+
+* Display grid
+
+<h3>CSS Frameworks</h3>
+
+* Bootstrap
+
+<h3>JavaScript library</h3>
+
+* React 
+* React Router
+* React Toast
+
+<h3>Databases</h3>
+
+* Firebase
+
+<h3>Data formats</h3>
+
+* JSON File
+
